@@ -1,0 +1,81 @@
+* {   /*Essa regra reseta todas as margens do documento*/
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+
+}
+
+body {
+    background: rgb(11,43,128);
+    background: linear-gradient(163deg, rgba(11,43,128,1) 0%, rgba(6,128,192,1) 44%, rgba(0,212,255,1) 100%);
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.profile {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.avatar {
+    width: 80px;
+    border:3px solid white;
+    border-radius: 50%;
+    box-shadow: 0 0 20px white;
+
+}
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+h2 {
+    font-size: 16px;
+
+}
+
+.social {
+    display: flex;
+    justify-content:space-around; /* SÓ FUNCIONA COM O FLEX*/
+    list-style: none;
+    margin: 20px 0;
+}
+
+.social img {
+    width: 33px;
+    text-align: center;
+
+}
+
+.links-list {
+    list-style: none;
+   
+}
+
+.links-list li {
+    margin: 15px 20px;
+
+}
+
+.links-list li a {
+    display: block;
+   background: white;
+   padding: 20px;
+   border-radius: 4px;
+   text-decoration: none;
+   color:rgb(23,15,149);
+   font-weight: bold;
+
+}
+
+.links-list li a span {
+    color: gray;
+    display: block;
+    margin-top: 10px;
+
+
+}
